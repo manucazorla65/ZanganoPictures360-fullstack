@@ -1,0 +1,9 @@
+Options -Indexes
+
+<FilesMatch "\.(sql|bak|zip|rar|7z|env|log)$">
+    Require all denied
+</FilesMatch>
+
+<Files ".htaccess">
+    Require all denied
+</Files>

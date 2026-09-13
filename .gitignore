@@ -1,0 +1,31 @@
+# Credenciales / configuración privada
+.env
+.env.*
+includes/conexion.php
+includes/config.php
+includes/datos.php
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporales
+tmp/
+temp/
+
+# Dependencias
+vendor/
+node_modules/
+
+# Copias de seguridad
+*.sql
+*.zip
+*.tar.gz
+*.bak
